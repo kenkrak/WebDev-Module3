@@ -105,6 +105,9 @@ div > p {
   .jumbotron p {
       text-align: center;
   }
+  #collapsable-nav {
+      display: none !important;
+  }
 }
 
 /********** Medium devices only **********/
@@ -120,6 +123,10 @@ div > p {
       text-align: center;
   }
 
+  #collapsable-nav {
+      display: none !important;
+  }
+
   /* End Home Page */
 }
 
@@ -132,7 +139,9 @@ div > p {
   .jumbotron p {
       text-align: center;
   }
-
+  #collapsable-nav {
+      display: none !important;
+  }
 
   /* End Home Page */
 

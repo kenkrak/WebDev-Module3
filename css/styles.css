@@ -6,9 +6,14 @@ body {
 }
 
 div > p {
-    font-size: 2.6em;
+    font-size: 1.9em;
     font-weight: bold;
     font-family: 'Oxygen', sans-serif;
+}
+
+.jumbotron
+{
+background-color:#70C5DF;
 }
 
 /** HEADER **/
@@ -17,6 +22,7 @@ div > p {
   border-radius: 0;
   border: 0;
 }
+
 
 #logo-img {
   background: url('../images/restaurant-logo_large.png') no-repeat;
@@ -32,7 +38,7 @@ div > p {
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
   color: #557c3e;
-  font-size: 1.5em;
+  font-size: 1.6em;
   text-transform: uppercase;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
@@ -51,6 +57,10 @@ div > p {
 }
 .navbar-brand p span { /* Star-K */
   vertical-align: middle;
+}
+
+.container {
+    background: "black";
 }
 
 #nav-list {
@@ -99,7 +109,7 @@ div > p {
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-  .jumbotron h2 {
+  .jumbotron h3 {
       text-align: center;
   }
   .jumbotron p {
@@ -116,7 +126,7 @@ div > p {
   /* End Header */
 
   /* Home Page */
-  .jumbotron h2 {
+  .jumbotron h3 {
       text-align: center;
   }
   .jumbotron p {
@@ -133,7 +143,7 @@ div > p {
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   /* Home Page */
-  .jumbotron h2 {
+  .jumbotron h3 {
       text-align: center;
   }
   .jumbotron p {
@@ -201,7 +211,7 @@ div > p {
     margin-top: 30px;
     padding: 0;
   }
-  .jumbotron h2 {
+  .jumbotron h3 {
       text-align: center;
   }
   .jumbotron p {
